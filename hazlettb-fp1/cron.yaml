@@ -1,0 +1,5 @@
+cron:
+- description:  delete previous quarter
+  url:  /cron
+  schedule:  1st monday of jan,apr,jul,oct 17:00
+  

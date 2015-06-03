@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset = 'utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Display Data</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+	<style>
+	th {border-bottom: 1px solid #d6d6d6;}
+	tr:nth-child(even) {background: #e9e9e9;}
+	</style>
+</head>
+<body>	
+	<form action="" method="get">
+		<input type = "hidden" name="action" value="view_emp">
+		<div data-role = "content">
+		<fieldset data-role="controlgroup">		
+			Employee ID:<input type="text" name = "choice">				
+		</fieldset>
+		<fieldset class="ui-grid-a">
+			<div class="ui-block-a"><input value="Submit" data-theme="a" type="submit" data-mini="true"></div>
+			<div class="ui-block-b"><a href ="/entry" data-role ="button" data-mini="true">Return to Home Page</a></div>
+		</fieldset>		
+		</div>
+	</form>	
+	
+		<div data-role = 'main' class = 'ui-content'>
+			<table data-role='table' class='ui-responsive ui-shadow'>
+				<thead>
+					<tr>
+						<th>Employee Id</th>
+						<th>Month</th>
+						<th>Day</th>
+						<th>Year</th>
+						<th>Hour</th>
+						<th>Minutes</th>
+						<th>Seconds</th>
+						<th>IN/OUT</th>
+					</tr>
+				<thead>
+				<tbody>											
+					{% for en in entries %}
+					<tr>
+					<td>{{ en.id }}</td>
+					<td>{{ en.month }}</td>
+					<td>{{ en.day }}</td>
+					<td>{{ en.year }}</td>
+					<td>{{ en.hour }}</td>
+					<td>{{ en.minute }}</td>
+					<td>{{ en.second }}</td>
+					<td>{{ en.in_out }}</td>
+					</tr>
+					{% endfor %}					
+				</tbody>
+			</table>			
+		</div>
+	
+</body>
+</html>

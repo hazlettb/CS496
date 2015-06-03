@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset = 'utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Add Time In/Out</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+<body>
+	<form action="" method="post">
+		<input type = "hidden" name="action" value="add_clock">
+		<div data-role = "content">
+		<fieldset data-role="controlgroup" >		
+			Employee ID:<input type="text" name = "entry-id">				
+		</fieldset>
+		<fieldset data-role="controlgroup">
+		<legend>Select:</legend>
+     	<input type="radio" name="choice" id="radio-choice-1" value="choice-1" />
+     	<label for="radio-choice-1">Clock IN</label>
+
+     	<input type="radio" name="choice" id="radio-choice-2" value="choice-2"  />
+     	<label for="radio-choice-2">Clock OUT</label>
+     	
+		</fieldset>
+		<fieldset class="ui-grid-a">
+			<div class="ui-block-a"><input value="Submit" data-theme="a" type="submit"></div>
+			<div class="ui-block-b"><a href='/display' data-role="button" data-theme="a" >View All</a></div>
+		</fieldset>		
+		</div>
+	</form>		
+</body>
+</html>
+
