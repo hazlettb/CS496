@@ -1,0 +1,8 @@
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/android/support/v7/appcompat/R.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/ApplicationStylesheet.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/AssetCryptImpl.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/Hazlettb_fp1Activity.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/Hazlettb_fp1AppInfo.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/Hazlettb_fp1Application.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/bdh/osu/edu/R.java"
+"C:/Users/BDHazlett/Documents/Titanium_Studio_Workspace/hazlettb_fp1/build/android/gen/ti/modules/titanium/ui/R.java"
